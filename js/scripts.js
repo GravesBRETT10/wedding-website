@@ -147,7 +147,7 @@ $(document).ready(function () {
 
     for (var i = 0; i < share_bar.length; i++) {
         var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
-            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=ramswarooppatra&amp;hashtags=ramandantara&amp;count=horizontal"' +
+            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=ramswarooppatra&amp;hashtags=brettandamanda&amp;count=horizontal"' +
             'style="width:105px; height:21px;">' +
             '</iframe>' +
 
@@ -184,23 +184,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Brett and Amanda's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Aug 14, 2025 10:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Aug 15, 2025 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Twelve29, Wisconsin',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Brett Graves at +1 262 844 6964."
         }
     });
 
@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    var location = { lat: 43.025837, lng: -87.9073625 };
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -255,7 +255,7 @@ function initMap() {
 }
 
 function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
+    var la_fiesta = { lat: 43.025837, lng: -87.9073625 };
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: la_fiesta,
